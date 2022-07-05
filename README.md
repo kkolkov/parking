@@ -28,3 +28,34 @@ spring.datasource.password=NagioS
 
 Дополнение: 
 При большей погружённости рекомендовано обеспечить автоматическую накатку данных в бд пользуясь средствами Flyway.
+
+#### Примеры запросов:
+
+##### POST
+
+http://localhost:8080/api/create
+
+{
+    "name": "Цывкунов Николай",
+    "place": 23,
+    "price": 2300
+}
+
+##### GET
+
+http://localhost:8080/api/read
+
+##### PUT
+
+http://localhost:8080/api/update
+
+{
+    "id": 4,
+    "name": "Сергеев Семен",
+    "place": 12,
+    "price": 777
+}
+
+##### DELETE
+
+http://localhost:8080/api/http://localhost:8080/delete
